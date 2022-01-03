@@ -3,7 +3,7 @@ version: 2.1
 defaults: &defaults
     #working_directory: ~/circleci-python
     docker:
-      - image: "circleci/node:13.8.0"
+      - image: "circleci/node:14"
 
 jobs:
   build :
